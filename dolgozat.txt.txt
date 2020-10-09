@@ -1,0 +1,147 @@
+C:\Users\tanulo>cd..
+
+C:\Users>cd..
+
+C:\>cd Rozmán József
+
+C:\Rozmán József>git clone https://github.com/RJoseph31/9FDolgozat.git
+Cloning into '9FDolgozat'...
+fatal: unable to access 'https://github.com/RJoseph31/9FDolgozat.git/': Could not resolve host: github.com
+
+C:\Rozmán József>https:git clone https://github.com/RJoseph31/9FDolgozat.git
+A fájlnév, a könyvtárnév vagy a kötetcímke szintaxisa nem megfelelő.
+
+C:\Rozmán József>https:git clone https://github.com/RJoseph31/9FDolgozat.git
+A fájlnév, a könyvtárnév vagy a kötetcímke szintaxisa nem megfelelő.
+
+C:\Rozmán József>GIT CLONE https://github.com/RJoseph31/9FDolgozat
+fatal: cannot handle CLONE as a builtin
+
+C:\Rozmán József>git clone https://github.com/RJoseph31/9FDolgozat
+Cloning into '9FDolgozat'...
+warning: You appear to have cloned an empty repository.
+
+C:\Rozmán József>cd 9FDolgozat
+
+C:\Rozmán József\9FDolgozat>git config -global user.email
+error: did you mean `--global` (with two dashes)?
+
+C:\Rozmán József\9FDolgozat>
+C:\Rozmán József\9FDolgozat>git config -global user.email
+error: did you mean `--global` (with two dashes)?
+
+C:\Rozmán József\9FDolgozat>
+C:\Rozmán József\9FDolgozat>git config --global user.email rjozsef2060131@gmail.com
+
+C:\Rozmán József\9FDolgozat>git config --global user.name RJoseph31
+
+C:\Rozmán József\9FDolgozat>copy con utasitasok.txt
+git reset
+git diff
+git reset állománynév
+git pull
+^Z
+        1 file(s) copied.
+
+C:\Rozmán József\9FDolgozat>add utasitasok.txt
+'add' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Rozmán József\9FDolgozat>git add utasitasok.txt
+
+C:\Rozmán József\9FDolgozat>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   utasitasok.txt
+
+
+C:\Rozmán József\9FDolgozat>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   utasitasok.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   utasitasok.txt
+
+
+C:\Rozmán József\9FDolgozat>git add utasitasok.txt
+
+C:\Rozmán József\9FDolgozat>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   utasitasok.txt
+
+
+C:\Rozmán József\9FDolgozat>git remote add origin https://github.com/RJoseph31/9FDolgozat.git
+fatal: remote origin already exists.
+
+C:\Rozmán József\9FDolgozat>git branch -M main
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+
+C:\Rozmán József\9FDolgozat>git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/RJoseph31/9FDolgozat'
+
+C:\Rozmán József\9FDolgozat>git remote add origin https://github.com/RJoseph31/9FDolgozat.git
+fatal: remote origin already exists.
+
+C:\Rozmán József\9FDolgozat>git show
+fatal: your current branch 'master' does not have any commits yet
+
+C:\Rozmán József\9FDolgozat>git commit -m "dolgozat"
+[master (root-commit) f66dadf] dolgozat
+ 1 file changed, 4 insertions(+)
+ create mode 100644 utasitasok.txt
+
+C:\Rozmán József\9FDolgozat>git remote add origin https://github.com/RJoseph31/9FDolgozat.git
+fatal: remote origin already exists.
+
+C:\Rozmán József\9FDolgozat>git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+C:\Rozmán József\9FDolgozat>git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+C:\Rozmán József\9FDolj@github.com': origin master
+remote: Invalid username or password.sic credential prompt.
+fatal: Authentication failed for 'https://github.com/RJoseph31/9FDolgozat/'
+
+C:\Rozmán József\9FDolgozat>
+C:\Rozmán József\9FDolgozat>git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 251 bytes | 251.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/RJoseph31/9FDolgozat
+ * [new branch]      master -> master
+
+C:\Rozmán József\9FDolgozat>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Rozmán József\9FDolgozat>
